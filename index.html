@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <header>COFFEE HOUSE</header>
+    <main>
+        <div class="user">
+            <input class="surname" placeholder="Введите Фамилию">
+            <input class="name" placeholder="Введите Имя">
+        </div>
+        <div class="dishes">
+            <div class="coffee">
+                <div class="esp">
+                    <input type="checkbox" id="espresso" name="menu" value="80">
+                    <label for="espresso">Эспреcсо 80р.</label>
+                    <input type="text">
+                </div>
+                <div class="lat">
+                    <input type="checkbox" id="latte" name="menu" value="110">
+                    <label for="latte">Латте 110р.</label>
+                    <input type="text">
+                </div>
+                <div class="cap">
+                    <input type="checkbox" id="capychino" name="menu" value="120">
+                    <label for="capychino">Капучино 120р.</label>
+                    <input type="text">
+                </div>
+                <div class="am">
+                    <input type="checkbox" id="americano" name="menu" value="90">
+                    <label for="americano">Американо 90р.</label>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="desert">
+                <div class="choco">
+                    <input type="checkbox" id="chocolate" name="menu" value="80">
+                    <label for="chocolate">Шоколадный кекс 80р.</label>
+                    <input type="text">
+                </div>
+                <div class="blue">
+                    <input type="checkbox" id="berries" name="menu" value="90">
+                    <label for="berries">Черничный кекс 90р.</label>
+                    <input type="text">
+                </div>
+                <div class="tart">
+                    <input type="checkbox" id="apple" name="menu" value="100">
+                    <label for="apple">Яблочный тарт 100р.</label>
+                    <input type="text">
+                </div>
+            </div>
+        </div>
+        <div class="price">Итого:
+            <p id="price"></p>
+        </div>
+        <button>ОФОРМИТЬ ЗАКАЗ</button>
+    </main>
+<script src="main.js"></script>
+</body>
+</html>
